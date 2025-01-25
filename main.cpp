@@ -6,7 +6,7 @@ int main() {
     std::cout << "🤖 Welcome to your Gen Z Chatbot! Type 'exit' to quit. 🤖" << std::endl;
 
     // Your API key and URL
-    const std::string api_key = "AIzaSyDcuFCRPpXCo77oNulnbMJv97sviNnWBdw";
+    const std::string api_key = "Your Api Key"; // paste your api key here
     const std::string api_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
 
     while (true) {
