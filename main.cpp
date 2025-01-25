@@ -3,7 +3,7 @@
 #include "api.h"
 
 int main() {
-    std::cout << "🤖 Welcome to your Gen Z Chatbot! Type 'exit' to quit. 🤖" << std::endl;
+    std::cout << "🤖 Welcome to  Chatbot! Type 'exit' to quit. 🤖" << std::endl;
 
     // Your API key and URL
     const std::string api_key = "Your Api Key"; // paste your api key here
