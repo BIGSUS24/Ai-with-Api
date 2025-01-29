@@ -61,7 +61,7 @@ std::string make_post_request(const std::string& url, const std::string& api_key
     // Cleanup global cURL state
     curl_global_cleanup();
 
-    // Parse the JSON response
+    // JSON response
     try {
         nlohmann::json response_json = nlohmann::json::parse(read_buffer);
 
