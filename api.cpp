@@ -42,7 +42,7 @@ std::string make_post_request(const std::string& url, const std::string& api_key
         curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
         curl_easy_setopt(curl, CURLOPT_POSTFIELDS, payload_str.c_str());
 
-        // Disable SSL verification (for testing purposes)
+        // Disable SSL verification you can use ccerts too
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
 
