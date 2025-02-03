@@ -1,4 +1,4 @@
-#include "api.h"
+*//#include "api.h"
 #include <iostream>
 #include <string>
 #include <curl/curl.h>
@@ -61,5 +61,5 @@ std::string make_post_request(const std::string& url, const std::string& api_key
     // Cleanup global cURL state
     curl_global_cleanup();
 
-    return read_buffer.empty() ? "No response received from API." : read_buffer;
+    return read_buffer.empty() ? "No response received from API." : read_buffer;//*
 }
